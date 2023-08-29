@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+      /* background-color: #7C6EBA;    */
+}
+
+.navbar{
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-between;
+    background-color: #6d98ba;
+    color: white;
+    padding: 50px 100px;
+    margin-bottom: 30px;
+}
+
+
+.cart{
+    position: relative;
+    background-color:white;
+    color:#6d98ba;
+    font-size: 50px;
+    padding: 5px;
+    border-radius: 10px;
+    left: -15px;
+   
+
+}
+
+.cartAmount{
+    position: absolute;
+    top: -15px;
+    right: -5px;
+    font-size: 16px;
+    background-color:lightskyblue;
+    color: white;
+   
+    padding:3px;
+    border-radius: 3px;
+} 

@@ -1,0 +1,29 @@
+.cart-quantity {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 120px;
+  }
+  
+  .quantity-btn {
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 50%;
+    background-color: #eee;
+    font-size: 20px;
+    color: #444;
+    cursor: pointer;
+  }
+  
+  .quantity-input {
+    width: 40px;
+    height: 30px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    background-color: #eee;
+    font-size: 16px;
+    color: #444;
+  }
+  
